@@ -1,0 +1,56 @@
+body{
+margin:0;
+padding:0px;
+background-color:black;
+color:white;
+font-size:15px;
+}
+
+.flex-base{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.console{
+position:fixed;
+width:350px;
+height:200px;
+border:1px solid white;
+top:0;
+right:0;
+}
+
+#chat{
+width:500px;
+height:300px;
+border:1px solid white;
+}
+
+#users{
+width:500px;
+height:30px;
+}
+
+#type{
+width:400px;
+height:30px;
+background-color:black;
+text-decoration:none;
+border:1px solid white;
+color:white;
+padding:2px;
+}
+
+#send{
+width:100px;
+height:30px;
+background-color:black;
+text-decoration:none;
+border:1px solid white;
+color:white;
+}
+
+#send:hover{
+background-color:grey;
+}
